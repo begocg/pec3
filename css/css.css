@@ -13,6 +13,15 @@ main p, html blockquote {
     color: rgb(93, 95, 121);
 }
 
+main p {
+    text-align: left;
+    margin-bottom: 2%;
+}
+
+main h1 {
+    margin-bottom: 1%;
+}
+
 html figcaption {
     font-size: 0.65rem;
     font-weight: normal;
@@ -122,6 +131,8 @@ a:hover {
     header {
         display: grid;
         justify-content: center;
+        margin-left: 2.5% !important;
+        margin-right: 2.5% !important;
     }
     .referentes {
         display: flex;
@@ -142,10 +153,7 @@ a:hover {
     iframe {
         width: 100% !important;
     }
-    header {
-    margin-left: 2.5% !important;
-    margin-right: 2.5% !important;
-}
+
     main {
     margin-left: 2.5% !important;
     margin-right: 2.5% !important;
@@ -229,6 +237,7 @@ a:hover {
         flex-wrap: wrap;
         width: auto !important;
         justify-content: center;
+        width: 100% !important;
 
     }
     .list p {
@@ -387,14 +396,7 @@ img {
     align-self: center;
 }
 
-main p {
-    text-align: left;
-    margin-bottom: 2%;
-}
 
-main h1 {
-    margin-bottom: 1%;
-}
 
 dt::before {
     content: "";
